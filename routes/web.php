@@ -254,7 +254,7 @@ Route::get('companydatatemp', ['uses' => 'CompanyMasterController@tempanydata', 
 //click company
 Route::get('clickclient', ['uses' => 'ClickClientController@index', 'as' => 'clients.index']);
 ////////////testing
-Route::get('clickinactive', ['uses' => 'ClickClientController@test', 'as' => 'clients.test']);
+Route::get('clickinactive', ['uses' => 'ClickClientController@viewInactiveData', 'as' => 'clients.ciewinactivedata']);
 Route::get('clickclientassigned', ['uses' => 'ClickClientController@clickshowassigncompany', 'as' => 'clickclients.clickshowassigncompany']);
 Route::get('clickclientunassigned', ['uses' => 'ClickClientController@clickshowunassigncompany', 'as' => 'clickclients.clickshowunassigncompany']);
 
@@ -268,11 +268,11 @@ Route::get('clickcompanydata/{id}', ['uses' => 'ClickClientController@anydata', 
 /**
  * route for displaying data of inactive order
  */
-Route::get('clickcompanydatas/{id}', ['uses' => 'ClickClientController@testingData', 'as' => 'clickclients.testingdata']);
+Route::get('clickcompanydatas/{id}', ['uses' => 'ClickClientController@inactiveDataList', 'as' => 'clickclients.inactivedatalist']);
 /**
  * route for displaying filteration data of inactive order
  */
-Route::get('clickcompanydatas/{id}/{status}', ['uses' => 'ClickClientController@testingApiData', 'as' => 'clickclients.testingapidata']);
+Route::get('clickcompanydatas/{id}/{status}', ['uses' => 'ClickClientController@inactiveApiData', 'as' => 'clickclients.inactiveapidata']);
 Route::get('clickunassignedcompanydata/{id}', ['uses' => 'ClickClientController@unassignedanydata', 'as' => 'clickclients.unassignedanydata']);
 Route::get('clickassignedcompanydata/{id}', ['uses' => 'ClickClientController@assignedanydata', 'as' => 'clickclients.assignedanydata']);
 

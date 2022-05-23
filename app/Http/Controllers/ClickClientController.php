@@ -76,7 +76,7 @@ class ClickClientController extends Controller
 
 
 
-public function testingData($id)
+public function inactiveDataList($id)
 {
 
   
@@ -112,7 +112,7 @@ public function testingData($id)
     })
     ->make(true);
 }
-public function testingApiData($id,$status)
+public function inactiveApiData($id,$status)
 {
 
   
@@ -578,7 +578,7 @@ public function testingApiData($id,$status)
       })
       ->make(true);
   }
-  public function test(Request $request)
+  public function viewInactiveData(Request $request)
   {
     $cURLConnection1 = curl_init('http://127.0.0.1:8000/api/clientdata');
    // curl_setopt($cURLConnection1, CURLOPT_POSTFIELDS, $postRequest1);

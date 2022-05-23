@@ -91,6 +91,7 @@
 @endsection
 
 @section('content')
+
     <div class="row">
         <div class="col-md-2">
             <h5>Click Clients</h5>
@@ -102,6 +103,7 @@
                 <i class="fa fa-refresh" aria-hidden="true"></i>
             </a>
         </div>
+        
         <div class="col-md-6">
         <select id="duration" class="btn btn-warning btn-sm btn-outline rightdiv mr-2">
                 <option value="">Select Month Duration</option>
@@ -520,7 +522,7 @@
                 //stateDuration: -1,  changes made on  04/08/18
 
                 // changes made on  04/08/18
-                ajax: "{{ route('clickclients.testingdata',['id'=>'ALL'])}}",
+                ajax: "{{ route('clickclients.inactivedatalist',['id'=>'ALL'])}}",
 
                 columnDefs: [
 
@@ -783,7 +785,6 @@
             var id = $(this).text();
             //  fetch month data
             var duration = $('#duration').val();
-           // var new_url = "{{ route('clickclients.testingdata', ':id') }}";
          //   new_url = new_url.replace(':id', id);
          
          // if Month , NA, DA, ALL data is not empty
