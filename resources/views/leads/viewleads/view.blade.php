@@ -1,0 +1,191 @@
+@extends('layouts.dashboard')
+@section('style')
+<style type="text/css">
+	.modal.fade:not(.in).right .modal-dialog {
+    -webkit-transform: translate3d(35%, 0, 0);
+    transform: translate3d(35%, 0, 0);
+}
+
+
+ table#leadrecords td, th {
+  position: relative;
+  /*background: transparent ; */
+ /* padding: 2px 4px !important;*/
+  padding-left: 4px !important;
+  padding-right: 4px !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  /*text-align: left;*/
+  vertical-align: middle;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+/*  border-top: 0px;*/
+  font-size: 14px;
+  clear: both;
+  border-collapse: collapse;
+  table-layout: fixed;
+  word-wrap: break-word;
+   max-width: 110px !important;
+ /*color: white !important;
+  color: blue !important; */
+  white-space: nowrap !important;  
+  color:black;
+   border:1px #979DD6 solid;
+  border-right: none;
+  border-left: none;
+  /*max-height: 1.1em ;
+  border-collapse: separate;
+   empty-cells: hide;*/
+   
+ 
+}
+#leadrecords_info{
+  color: white;
+}
+.No{
+ width: 40%;
+}
+.Coun{
+  width: 60%;
+}
+.Webs{
+   width: 60%;
+}
+.Comp{
+  width: 90%;
+}
+.User{
+  width:50%;
+}
+.Emai{
+   width: 40%;
+}
+.Phon{
+   width: 40%;
+}
+.Assi{
+     width: 70%;
+}
+.Stat{
+   width: 60%;
+}
+.paginate_input {
+   width: 30px;
+    color: blue !important;
+   font-weight: bold !important;
+   font-style: 10px;
+   font-weight: solid !important;
+
+}
+.paginate_page{
+  color: white;
+}
+.paginate_of{
+  color: white;
+
+}
+#leadrecords_next{
+ background-color: white;
+  margin-left: 10px;
+   margin-right: 10px;
+}
+#leadrecords_last{
+ background-color: white;
+}
+#leadrecords_previous{
+  background-color: white;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+#leadrecords_first{
+  background-color: white;
+}
+.followupvisible{
+  display: none;
+}
+.my-custom-scrollbar1 {
+position: relative;
+height: 450px;
+overflow: auto;
+}
+.table-wrapper-scroll-y1 {
+display: block;
+}
+.table>thead>tr>th {
+     color:white;
+     text-align: center !important;
+  }
+  table#dispositionlistitable thead th {
+  background-color: #5D6D7E;
+   text-align-last: center;
+    color: white;
+}
+#dispositionlistitable_info{
+  display: none;
+}
+table#clientlistitable thead th {
+  background-color: #5D6D7E;
+   text-align-last: center;
+    color: white;
+    font-weight: bold;
+}
+ table#clientlistitable td, th {
+   position: relative;
+   padding-left: 4px !important;
+   padding-right: 4px !important;
+   border-color: white;
+   vertical-align: middle;
+   overflow: hidden !important;
+   text-overflow: ellipsis !important;
+   font-size: 14px;
+   clear: both;
+   border-collapse: collapse;
+   table-layout: fixed;
+   word-wrap: break-word;
+   white-space: nowrap !important;
+   color:white;
+   background-color: #5D6D7E;  
+   border-color: white;
+ }
+
+  table#dispositionlistitable td, th {
+   position: relative;
+ /* background: transparent ; */
+ /* padding: 2px 4px !important;*/
+ padding-left: 4px !important;
+  padding-right: 4px !important;
+  /*text-align: left;*/
+  vertical-align: middle;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+ /* border-top: 0px;*/
+  font-size: 14px;
+  clear: both;
+  border-collapse: collapse;
+  table-layout: fixed;
+  word-wrap: break-word;
+   max-width: 70px !important;
+ /*color: white !important;
+  color: blue !important; */
+  white-space: nowrap !important;
+  color:white;
+ background-color: #5D6D7E;  
+  /*max-height: 1.1em ;
+  border-collapse: separate;
+   empty-cells: hide;*/
+  border-color: white;
+  }
+</style>
+@endsection
+
+@section('content')
+    
+@include('leads.viewleads.content')
+
+@endsection
+
+@section('script')  
+
+@include('leads.viewleads.script')
+
+@endsection

@@ -1,0 +1,15 @@
+no,company_name(Required),website_address,companynumber,vendor_type,industry,type_business,Client_Salutation_Name,Client_First_Name(Required),Client_Last_Name,Client_Designation,Client_Phone(Add second phone number after semicolon),Phone_Type(Add second phone type after semicolon),Email(Add second email after semicolon),Email_Type(Add second email type after semicolon),house_no,street_name,"address_line_2(Don't use comma(,) in any column)",County,zip_code,Country,time_zone,fax_no,link_address
+1,Nexas,www.nexas.com,3432343232,Fixed,Computer,Web Design,Mrs.,Emily,Garston ,Manager,1800160401;1800975707,Mobile;Landline,Emily@gmail.com,Work,1,Nexas street_name,Nexas address_line_2,Sydney ,232323,AUS,EST,345345,Nexasinfo
+2,Nexas,,,,,,Mr.,Conor,Forapple ,Emp,1800975708,Landline,Conor@gmail.com;conor123@gmail.com,Work;Home,,,,,,,,,
+3,Nexas,,,,,,Mrs.,Amelia,Dergate ,Manager,1800975709,Mobile,Amelia@gmail.com,Home,,,,,,,,,
+4,Alcatel,www.alcatel.com,4545454532,Retail,,Marketing,Mrs.,Noah,Churche ,Emp,1800975710,Landline,Noah@gmail.com,Work,2,Alcatel street_name,Alcatel address_line_2,Hawaii,3423324,USA,EST,343434,Alcatelinfo
+5,Alcatel,,,,,,Mrs.,Emma,Bysshe ,Manager,1800975711;0491570143,Mobile;Landline,Emma@gmail.com,Work,,,,,,,,,
+6,Camtek ,www.camtek.com,6765654456,Fixed,Electronics,Sellling,Mrs.,Mia,Bargate ,Emp,1300975707,Landline,Mia@gmail.com;mia123@gmail.com,Work;Home,3,Camtek street_name,Camtekaddress_line_2,Idaho,3453534,USA,EST,456445,Camtekinfo
+7,Camtek ,,,,,,Mrs.,Olivia,Aler,Manager,1300975709;0491570110,Landline;Mobile,Olivia@gmail.com,Home,,,,,,,,,
+8,Canon ,www.canon.com,9807654357,Fixed,Biotechnology,Sellling,Mr.,Cillian,Netherende ,Manager,1300975888,Mobile,Cillian@gmail.com,Work,4,Canon street_name,Canonaddress_line_2,California,3453535,USA,EST,456456,Canoninfo 
+9,Canon ,,,,,,Mr.,Hannah,Parrock ,Emp,1300975710;1300975745,Mobile;Mobile,Hannah@gmail.com,Work,,,,,,,,,
+10,Hollinger ,www.hollinger.com,3423243433,Retail,Computer,Software,Mr.,Oliver,Oldecroft ,Emp,1300975711;1300975854,Landline;Mobile,Oliver@gmail.com;oliver23@gmail.com,Home;Work,5,Hollinger street_name,Hollingeraddress_line_2,Florida,34534553,USA,EST,456456,Hollingerinfo
+11,Hollinger ,,,,,,Mr.,Vilde ,Lynch ,Emp,1300975712;1300975999,Landline;Landline,Vilde@gmail.com,Work,,,,,,,,,
+12,Eltek ,www.eltek.com,5676565656,Retail,Advertising,Entertainment,Mr.,Warde ,Hemm ,Emp,1300975713;1800975711,Mobile;Landline,Warde@gmail.com;warde234@gmail.com,Work;Home,6,Eltek street_name,Eltekaddress_line_2,Colorado ,34534534,USA,EST,677556,Eltekinfo
+13,Eltek ,,,,,,Mr.,Thrope ,Goldhord ,Manager,1300975714;0491570156,Mobile;Mobile,Thrope@gmail.com,Home,,,,,,,,,
+14,Konami ,www.konami.com,8787878787,Fixed,Computer,Development,Mr.,Tour,Founte ,Manager,1300975715;0491570110,Mobile;Landline,Tour@gmail.com;tour123@gmail.com;tour232@gmail.com,Work;Home;Home,7,Konami street_name,Konamiaddress_line_2,Alaska,34535345,USA,EST,567756,Konamiinfo 

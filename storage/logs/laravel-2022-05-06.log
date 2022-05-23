@@ -1,0 +1,8 @@
+[2022-05-06 03:32:12] local.ERROR: Allowed memory size of 536870912 bytes exhausted (tried to allocate 10154232 bytes) {"userId":53,"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Allowed memory size of 536870912 bytes exhausted (tried to allocate 10154232 bytes) at /var/www/patternsbde.com/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php:50)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-06 03:32:32] local.ERROR: Allowed memory size of 536870912 bytes exhausted (tried to allocate 10154240 bytes) {"userId":53,"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Allowed memory size of 536870912 bytes exhausted (tried to allocate 10154240 bytes) at /var/www/patternsbde.com/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php:50)
+[stacktrace]
+#0 {main}
+"} 

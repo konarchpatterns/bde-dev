@@ -1,0 +1,5 @@
+no,company_name(Required),website_address,companynumber,vendor_type,industry,type_business,Client_Salutation_Name,Client_First_Name(Required),Client_Last_Name,Client_Designation,Client_Phone(Add second phone number after semicolon),phone_type(Add second phone type after semicolon),email(Add second email after semicolon),email_type(Add second email type after semicolon),house_no,street_name,address_line_2(Don't use comma in any column),County,zip_code,Country,time_zone,fax_no,link_address
+1,styam,www.satyam.com,3424343555,Fixed,Computer,Selling,Mr.,test91,testlast91,Manager,1111111111;2222222222,Mobile;Landline,test91@gmail.com;test911@gmail.com,Home;Work,styamhouse_no,styamstreet_name,styamaddress_line_2,styamCounty,styamzip_code,styamCountry,styamtime_zone,styamfax_no,styamlink_address
+2,styam,,,,,,Mr.,test93,testlast93,Manager,4444444444;5555555555,Mobile;Landline,test93@gmail.com,Work,,,,,,,,,
+3,saiinfotech,,,,,,Mr.,test92,teslastt92,Emp,3333333333,Mobile,test92@gmail.com,Home,,,,,,,,,
+4,testinfo,,,,,,Mr.,test94,testlast94,Emp,6666666666,Landline,test94@gmail.com;test944@gmail.com,Home;Work,,,,,,,,,

@@ -1,0 +1,6 @@
+no,company_name(Required),website_address,companynumber,vendor_type,industry,type_business,Client_Salutation_Name,Client_First_Name(Required),Client_Last_Name,Linkedin URL,Client_Designation,Client_Phone(Add second phone number after semicolon),Phone_Type(Add second phone type after semicolon),Email(Add second email after semicolon),Email_Type(Add second email type after semicolon),house_no,street_name,"address_line_2(Don't use comma(,) in any column)",County,zip_code,Country,time_zone,fax_no,link_address
+1,Makita,www.Makit.com,3432343232,Fixed,Computer,Web Design,Mrs.,Mont,Garston ,www.linkedin.com,Manager,1800160401;2343434545,Mobile;Landline,Mont@gmail.com,Work,1,Makita street_name,Makita address_line_2,Sydney ,232323,AUS,EST,345345,Makitainfo
+2,Makita,,,,,,Mr.,Wrosne,Forapple ,www.linkedin.com,Emp,3454345434,Landline,Wrosne@gmail.com;Wrosne123@gmail.com,Work;Home,,,,,,,,,
+3,Makita,,,,,,Mrs.,Telgh,Dergate ,www.linkedin.com,Manager,8888899999,Mobile,Telgh@gmail.com,Home,,,,,,,,,
+4,Novelis,www.alcatel.com,4545454532,Retail,Computer,Marketing,Mrs.,Warde,Churche ,www.linkedin.com,Emp,2222233333,Landline,Warde@gmail.com,Work,2,Alcatel street_name,Alcatel address_line_2,Hawaii,3423324,USA,EST,343434,Alcatelinfo
+5,Novelis,,,,,,Mrs.,Stubb,Aler,www.linkedin.com,Manager,1343434343;2222222222,Landline;Mobile,Stubb@gmail.com,Home,,,,,,,,,
