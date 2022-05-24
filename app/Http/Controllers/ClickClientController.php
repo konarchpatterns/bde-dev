@@ -95,7 +95,7 @@ public function inactiveDataList($id)
     'username' => $username,
     'status' => 'ALL'
   );
-
+/*
  // $cURLConnection1 = curl_init('http://192.168.0.31/api/ddddregister');
   $cURLConnection1 = curl_init('http://127.0.0.1:8000/api/clientdata');
   curl_setopt($cURLConnection1, CURLOPT_POSTFIELDS, $postRequest1);
@@ -104,6 +104,31 @@ public function inactiveDataList($id)
   $response = curl_exec($cURLConnection1);
   curl_close($cURLConnection1);
   $someArray = json_decode($response, true);
+  */
+
+  
+$curl = curl_init();
+
+curl_setopt_array($curl, array(
+    CURLOPT_URL => "http://192.168.0.31/api/clientdatadetail",
+    CURLOPT_RETURNTRANSFER => true,
+    CURLOPT_ENCODING => "",
+    CURLOPT_MAXREDIRS => 10,
+    CURLOPT_TIMEOUT => 30000,
+    CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+    CURLOPT_CUSTOMREQUEST => "GET",
+    CURLOPT_POSTFIELDS => json_encode($postRequest1),
+    CURLOPT_HTTPHEADER => array(
+    	// Set here requred headers
+        "accept: */*",
+        "accept-language: en-US,en;q=0.8",
+        "content-type: application/json",
+    ),
+));
+
+$response = curl_exec($curl);
+$err = curl_error($curl);
+$someArray=json_decode($response, true);
   return Datatables::of($someArray)
     ->addColumn('checkbox', function ($data) {
       // $checkboxvalue=$data->id;
@@ -131,7 +156,7 @@ public function inactiveApiData($id,$status)
     'username' => $username,
    'status' => $status
   );
-
+/*
  // $cURLConnection1 = curl_init('http://192.168.0.31/api/ddddregister');
   $cURLConnection1 = curl_init('http://127.0.0.1:8000/api/clientdata');
   curl_setopt($cURLConnection1, CURLOPT_POSTFIELDS, $postRequest1);
@@ -140,6 +165,31 @@ public function inactiveApiData($id,$status)
   $response = curl_exec($cURLConnection1);
   curl_close($cURLConnection1);
   $someArray = json_decode($response, true);
+  */
+
+  $curl = curl_init();
+
+curl_setopt_array($curl, array(
+    CURLOPT_URL => "http://192.168.0.31/api/clientdatadetail",
+    CURLOPT_RETURNTRANSFER => true,
+    CURLOPT_ENCODING => "",
+    CURLOPT_MAXREDIRS => 10,
+    CURLOPT_TIMEOUT => 30000,
+    CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+    CURLOPT_CUSTOMREQUEST => "GET",
+    CURLOPT_POSTFIELDS => json_encode($postRequest1),
+    CURLOPT_HTTPHEADER => array(
+    	// Set here requred headers
+        "accept: */*",
+        "accept-language: en-US,en;q=0.8",
+        "content-type: application/json",
+    ),
+));
+
+$response = curl_exec($curl);
+$err = curl_error($curl);
+$someArray=json_decode($response, true);
+
   return Datatables::of($someArray)
     ->addColumn('checkbox', function ($data) {
       // $checkboxvalue=$data->id;
