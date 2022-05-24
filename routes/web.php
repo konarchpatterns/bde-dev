@@ -253,7 +253,7 @@ Route::get('companytemp', ['uses' => 'CompanyMasterController@tempindex', 'as' =
 Route::get('companydatatemp', ['uses' => 'CompanyMasterController@tempanydata', 'as' => 'company.tempanydata']);
 //click company
 Route::get('clickclient', ['uses' => 'ClickClientController@index', 'as' => 'clients.index']);
-////////////testing
+////////////testing purpose only
 Route::get('clickinactive', ['uses' => 'ClickClientController@viewInactiveData', 'as' => 'clients.ciewinactivedata']);
 Route::get('clickclientassigned', ['uses' => 'ClickClientController@clickshowassigncompany', 'as' => 'clickclients.clickshowassigncompany']);
 Route::get('clickclientunassigned', ['uses' => 'ClickClientController@clickshowunassigncompany', 'as' => 'clickclients.clickshowunassigncompany']);

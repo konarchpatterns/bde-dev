@@ -791,13 +791,13 @@
             if((duration!="")&&(id!=""))
             {
                 console.log(id+" "+duration);
-                table.ajax.url("http://127.0.0.1:8001/clickcompanydatas"+"/"+`${id}`+"/"+`${duration}`+"/").load();
+                table.ajax.url("clickcompanydatas"+"/"+`${id}`+"/"+`${duration}`+"/").load();
             }
          // if Month data is empty , NA, DA, ALL data is not empty
             if((duration=="")&&(id!=""))
             {
                 console.log(id+" "+duration);
-                table.ajax.url("http://127.0.0.1:8001/clickcompanydatas"+"/"+`${id}`+"/"+"ALL/").load();
+                table.ajax.url("clickcompanydatas"+"/"+`${id}`+"/"+"ALL/").load();
             }
            // table.ajax.url(new_url).load();
         });
@@ -813,14 +813,14 @@
                 
                 console.log(id+" "+duration);
                 //console.log("http://127.0.0.1:8001/clickcompanydatas"+"/"+`${id}`+"/"+`${duration}`+"/");
-                table.ajax.url("http://127.0.0.1:8001/clickcompanydatas"+"/"+`${id}`+"/"+`${duration}`+"/").load();
+                table.ajax.url("clickcompanydatas"+"/"+`${id}`+"/"+`${duration}`+"/").load();
             }
             if(duration=="")
             {
                 
                 console.log(id+" "+duration);
                 //console.log("http://127.0.0.1:8001/clickcompanydatas"+"/"+`${id}`+"/"+"ALL/");
-                table.ajax.url("http://127.0.0.1:8001/clickcompanydatas"+"/"+`${id}`+"/"+"ALL/").load();
+                table.ajax.url("clickcompanydatas"+"/"+`${id}`+"/"+"ALL/").load();
             }
         });
 
